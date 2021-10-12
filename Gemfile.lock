@@ -337,7 +337,8 @@ GEM
     pre-commit (0.39.0)
       pluginator (~> 1.5)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (4.3.9)
+      nio4r (~> 2.0)
     rack (2.0.7)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -503,7 +504,7 @@ DEPENDENCIES
   mini_racer
   mysql2 (>= 0.4.4, < 0.6.0)
   pre-commit
-  puma (~> 3.11)
+  puma (~> 4.3)
   rails (~> 5.2.3)
   rspec-rails
   rubocop
